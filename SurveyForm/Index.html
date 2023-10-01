@@ -1,0 +1,53 @@
+<html>
+    <head>
+    <link href = "style.css" rel ="stylesheet">
+    </head>
+    <body >
+        <div style = "position:relative;top:200px;left:450px;text-align:center;width:400px;height:300px;background-color: white;" id = "items-list"></div>
+        <div class="container" >
+           
+            <h2 style="text-align:center;">Registration Form</h2>
+        <form >
+            <div class ="main">
+                <div class = "first"> <div class="row"><label for="">Firstname</label></div>
+                <div class="row"><input name ="firstName" class="inp" type = "text" required></div></div>
+             <div class ="first" > <div class="row"><label for="">Lastname</label></div>
+                <div class="row"><input name ="lastName" class = "inp" type = "text" required></div>
+            </div> 
+            </div>
+            <div class ="main">
+                <div class = "first"> <div class="row"><label for="">Date OF Birth</label></div>
+                <div class="row"><input name ="Date Of Birth" class = "inp" type = "Date" required></div></div>
+             <div class ="first" > <div class="row"><label for="">Country</label></div>
+                <div class="row"><select id = "select" value ="" name ="country" class="inp" aria-label="Default select example" required>
+                   
+                  </select></div>
+            </div> 
+            </div>
+            <div class ="main2">
+               <div class = "row"> <label>Gender </label></div>
+              <div class = "row"> <input class = "inp" type = "checkbox" name = "gender" value = "male"><label>Male</label>
+                <input type = "checkbox" class="inp" name = "gender" value = "female"><label>Female</label>
+                <input type = "checkbox" class="inp" name = "gender" value = "both"><label>Both</label>
+            </div>
+            </div>
+            <div class ="main">
+                <div class = "first"> <div class="row"><label for="">Email</label></div>
+                <div class="row"><input name="email" class = "inp" type = "email" required></div></div>
+             <div class ="first" > <div class="row"><label for="">Mobile Number</label></div>
+                <div class="row"><input name = "Mobile"class = "inp" type = "Number" required></div>
+            </div> 
+            </div>
+            <div class="main">
+                <div class="first"><div class="row"><label for="">Profession</label></div>
+                <div class="row"><input class = "inp" name ="Profession" type = "text" style = "width:400px" required></div></div>
+            </div>
+            <div class="btn">
+                <div class="row" ><input class = "btn-submit" type ="button" value = "Submit" required></div>
+                <div class="row"><input class = "btn-reset" type ="button" value ="Reset" required></div>
+            </div>
+        </form>
+    </div>
+    <script src = "script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+.row{
+   
+   
+    display:flex;
+    justify-content: center;
+}
+h2{
+    position :relative;
+    text-align: center;
+    top:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container{
+    position :relative;
+    text-align: center;
+    top:100px;
+}
+.row .button{
+    padding: 20px;
+    margin : 2px;
+    border:2px solid black;
+    border-radius: 10px;
+    cursor:pointer;
+    font-size: medium;
+    background-color: black;
+    color:white;
+}
+.row .button:last-child{
+    background-color: grey;
+    color:white;
+}
+.row input{
+    margin : 10px 7px;
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 9px;
+    width:155px;
+}
+#btn{
+    padding:15px;
+    background-color: green;
+}
